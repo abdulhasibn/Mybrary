@@ -10,7 +10,7 @@ router.get("/new",  (req, res) => {
     res.render("authors/new", {author: new Author()})
 })
 
-router.post("/new",  (req, res) => {
+router.post("/",  (req, res) => {
     res.send("create")
 })
 
